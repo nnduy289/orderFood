@@ -42,9 +42,8 @@ bool checkValidAccountIn4(string &str){
             return false;
          }
          return true;
-    }else{
+    }
             cout << "At least 8 character or max 30 character!\n";
             return false;
-    } 
 }
 
