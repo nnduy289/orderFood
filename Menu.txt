@@ -1,0 +1,4 @@
+Chicken     100
+Pork        200
+Noodle      50
+Snack       10
