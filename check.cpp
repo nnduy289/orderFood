@@ -13,12 +13,12 @@ bool checkUnsignInteger(string& str){
     if(checkValidInteger(str)){
         if(stoi(str) >= 0){
             return true;
-        }else return false;
+        }
     }
     return false;
 }
 
-bool checkValidAccountIn4(string &str){
+bool checkValidAccountInfor(string &str){
     bool check = true;
     if(str.size() >= 8 && str.size() <= 30){
         for(int i = 0; i < str.size(); i++){
